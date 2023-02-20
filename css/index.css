@@ -70,6 +70,7 @@ main {
 }
 
 /* TESTE */
+/*
 
 #ff {
   width: 100px;
@@ -123,7 +124,6 @@ a span {
   transform: translate3d(-200%, 0, 0);
 }
 
-/* Presentational Styles */
 section {
   display: grid;
   font-family: 'Poppins', sans-serif;
@@ -139,6 +139,7 @@ section {
   font-weight: 700;
   vertical-align: top;
 }
+
 
 /* FINAL TESTE */
 
