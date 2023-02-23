@@ -69,17 +69,12 @@ main {
   transition: 0.3s;
 }
 
-  #barra-div {
-    height: 5vh;
-    background: #B35151;
-  }
-
   #name-v {
     align-items: center;
     height: 10vh;
     display: flex;
     justify-content: space-evenly;
-    background: #316C6C;
+    background: #B35151;
   }
 
   h1 {
@@ -93,7 +88,7 @@ main {
 
   .hover-3 {
     --b: 0.1em;   /* the thickness of the line */
-    --c: #B37E51; /* the color */
+    --c: white; /* the color */
     
     color: #0000;
     padding-block: var(--b);
