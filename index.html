@@ -8,6 +8,7 @@
     <title>FF Vestes</title>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="shortcut icon" href="/img/ICone.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -40,9 +41,86 @@
         </div>
     </section>
     <section id="section2">
-ss
 
+        <div class="swiper nySwiper container">
+            <div class="swiper-wrapper content">
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img.1png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img.2png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img.3png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img.4png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img.5png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img.6png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new swiper(".mySwiper", {
+            Perview:3,
+            spaceBetween:30,
+            slidePergroup:3,
+            loop:true,
+            loopfillGroupWithBlank:true,
+            pagination: {
+                el:".seiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        }
+        )
+    </script>
 
     <script src="/mobile-navbar.js"></script>
 </body>
